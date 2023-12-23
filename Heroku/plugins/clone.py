@@ -8,16 +8,16 @@ from random import choice
 from Heroku import cloner, ASSUSERNAME, BOT_NAME
 from Heroku.config import API_ID, API_HASH
 IMG = ["https://telegra.ph/file/cefd3211a5acdcd332415.jpg", "https://telegra.ph/file/30d743cea510c563af6e3.jpg", "https://telegra.ph/file/f7ae22a1491f530c05279.jpg", "https://telegra.ph/file/2f1c9c98452ae9a958f7d.jpg"]
-MESSAGE = "Heya! I'm a music bot hoster/Cloner\n\nI can Host Your Bot On My Server within seconds\n\nTry /clone Token from @botfather"
+MESSAGE = "Hᴇʏ! I'ᴍ A Mᴜsɪᴄ Bᴏᴛ Hᴏsᴛᴇʀ/Cʟᴏɴᴇʀ\n\nI Cᴀɴ Hᴏsᴛ Yᴏᴜʀ Bᴏᴛ Oɴ Mʏ Sᴇʀᴠᴇʀ Wɪᴛʜɪɴ Sᴇᴄᴏɴᴅs\n\nTry /clone Tᴏᴋᴇɴ Fʀᴏᴍ @botfather"
 
 @cloner.on_message(filters.private & filters.command("start"))
 async def hello(client, message: Message):
     buttons = [
            [
-                InlineKeyboardButton("✘ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="t.me/TheUpdatesChannel"),
+                InlineKeyboardButton("✘ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="t.me/Dhiman_Network"),
             ],
             [
-                InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="t.me/TheSupportChat"),
+                InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="t.me/Punjabi_Hindi_Chat"),
             ],
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -25,7 +25,7 @@ async def hello(client, message: Message):
 
 ##Copy from here 
 
-# © By Itz-Zaid Your motherfucker if uh Don't gives credits.
+# © By Legend-Dhiman Your motherfucker if uh Don't gives credits.
 @cloner.on_message(filters.private & filters.command("clone"))
 async def clone(bot, msg: Message):
     chat = msg.chat
