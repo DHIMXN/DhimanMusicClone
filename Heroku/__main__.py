@@ -42,8 +42,8 @@ async def load_start():
         except Exception as e:
             print("Error came while clearing db")
             pass
-    await client.join_chat("TheUpdatesChannel")
-    await client.join_chat("TheSupportChat")
+    await client.join_chat("Dhiman_Network")
+    await client.join_chat("Punjabi_Hindi_Chat")
     print("[INFO]: STARTED")
     
 
