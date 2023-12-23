@@ -50,7 +50,7 @@ async def others(_, query: CallbackQuery):
                     InlineKeyboardButton(
                         "🗯️ ʜᴇʀᴏᴋᴜ", url=f"https://heroku.com"),
                     InlineKeyboardButton(
-                        "🌐 ɢɪᴛʜᴜʙ", url=f"https://github.com/Itz-Zaid")
+                        "🌐 ᴡʜᴀᴛsᴀᴘᴘ", url=f"https://wa.me/+918196030318")
                 ],
                 [
                     InlineKeyboardButton(
@@ -101,7 +101,7 @@ async def repoinfo(_, query: CallbackQuery):
 
 ᴛʜɪs ʀᴇᴘᴏ ɪs ᴏɴʟʏ ᴍᴀᴅᴇ ғᴏʀ ᴅᴇᴘʟᴏʏɪɴɢ ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ʙᴏᴛ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ғᴀᴄɪɴɢ ʜᴇʀᴏᴋᴜ ᴀᴄᴄᴏᴜɴᴛ ʙᴀɴɴɪɴɢ ᴘʀᴏʙᴇʟᴍ.
 
-🔗 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : https://github.com/ITZ-ZAID/Zaid-Vc-Player""",
+🔗 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴄʜᴀʜɪʏᴇ : https://t.me/DhimanTheScammer""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
